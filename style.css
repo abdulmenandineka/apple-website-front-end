@@ -4,6 +4,10 @@
     
 }
 
+body{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 
 img{
     max-width: 100%;
@@ -47,21 +51,60 @@ header a{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 header a:hover{
     color: rgb(255, 255, 255,0.7);
     opacity: 1;
 }
 
+/* =================================end header========================================================================== */
+
+#full-img-main-wrapper-section a img{
+    height: 80vh;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+#full-img-main-wrapper-section #three-wrapper a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.sec1-main-wrapper #three-wrapper,
+.sec2-main-wrapper #three-wrapper{
+    text-align: center;
+}
+
+#three-wrapper h1{
+    font-size: 50px;
+}
+
+#three-wrapper h3{
+    font-size: 30px;
+}
+
+#three-wrapper ul{
+    display: flex;
+    gap: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.sec1-main-wrapper{
+    position: relative;
+}
+
+.sec1-main-wrapper #three-wrapper{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3em;
+}
+
+
+/* ============================================================================= */
 
 
 
