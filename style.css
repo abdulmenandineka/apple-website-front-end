@@ -183,3 +183,48 @@ header a:hover{
 .sec3-main-wrapper #three-wrapper  ul{
     margin-top: 20px;
 }
+/* =========================================================================================== */
+
+
+#side-by-side-img-main-wrapper-section .flex-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#side-by-side-img-main-wrapper-section .left-half-img-wrapper,
+#side-by-side-img-main-wrapper-section .right-half-img-wrapper{
+    margin: 5px;
+}
+
+#side-by-side-img-main-wrapper-section .flex-section img{
+    height: 80vh;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+#side-by-side-img-main-wrapper-section .left-half-img-wrapper,
+#side-by-side-img-main-wrapper-section .right-half-img-wrapper{
+    position: relative;
+}
+
+#side-by-side-img-main-wrapper-section .left-half-img-wrapper #three-wrapper,
+#side-by-side-img-main-wrapper-section .right-half-img-wrapper #three-wrapper{
+    position: absolute;
+    top: 2em;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#side-by-side-img-main-wrapper-section .sec4-main-wrapper .left-half-img-wrapper , 
+#side-by-side-img-main-wrapper-section .sec5-main-wrapper .right-half-img-wrapper{
+    position: relative;
+}
+
+#side-by-side-img-main-wrapper-section .sec4-main-wrapper .left-half-img-wrapper #three-wrapper,
+#side-by-side-img-main-wrapper-section .sec5-main-wrapper .right-half-img-wrapper #three-wrapper{
+    position: absolute ;
+    top: 25em ;
+    margin-top: 20px;
+    
+}
