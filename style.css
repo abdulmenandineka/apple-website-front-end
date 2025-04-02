@@ -13,6 +13,28 @@ img{
     max-width: 100%;
 }
 
+.learn{
+    text-align: center;
+    width: 120px;
+    background-color: rgb(0,113,227);
+    padding:13px 7px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.buy{
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: rgb(0,113,227) solid 1px;
+    color: rgb(43,136,226);
+}
+
+.buy:hover{
+    background-color: rgb(0,113,227);
+    color: white;
+}
+
 header{
     background-color: rgb(0,0,0);
     /* position:fixed; */
@@ -77,20 +99,25 @@ header a:hover{
 }
 
 #three-wrapper h1{
-    font-size: 50px;
+    font-size: 55px;
+    margin-bottom: 10px;
 }
 
 #three-wrapper h3{
-    font-size: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 #three-wrapper ul{
     display: flex;
     gap: 30px;
-    width: 50%;
-    margin: 0 auto;
+    padding-left: 30px;
 }
 
+
+#three-wrapper ul li{
+    list-style: none;
+}
 
 .sec1-main-wrapper{
     position: relative;
@@ -106,7 +133,53 @@ header a:hover{
 
 /* ============================================================================= */
 
+.sec2-main-wrapper{
+    position: relative;
+}
+
+.sec2-main-wrapper #three-wrapper{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3em;
+}
+
+.sec2-main-wrapper .learn{
+    background-color: white;
+    color: black;
+}
+
+.sec2-main-wrapper .buy{
+    color: white;
+    border: white solid 1px;
+}
+
+.sec2-main-wrapper .buy:hover{
+    background-color: white;
+    color: black;
+}
 
 
+.sec3-main-wrapper #three-wrapper img{
+    margin-left: 20px;
+    width: 250px;
+    height: 100px;
+    object-position: 0%;
+    object-fit: none;
+}
 
 
+.sec3-main-wrapper{
+    position: relative;
+}
+
+.sec3-main-wrapper #three-wrapper{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3em;
+}
+
+.sec3-main-wrapper #three-wrapper  ul{
+    margin-top: 20px;
+}
