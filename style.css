@@ -13,11 +13,15 @@ img{
     max-width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
 .learn{
     text-align: center;
-    width: 120px;
+    /* width: 120px; */
     background-color: rgb(0,113,227);
-    padding:13px 7px;
+    padding:12px 23px;
     border-radius: 20px;
     font-size: 16px;
 }
@@ -36,7 +40,7 @@ img{
 }
 
 header{
-    background-color: rgb(0,0,0);
+    background-color: rgb(24,24,24);
     /* position:fixed; */
     /* top:0px; */
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -98,7 +102,7 @@ header a:hover{
     text-align: center;
 }
 
-#three-wrapper h1{
+#full-img-main-wrapper-section #three-wrapper h1{
     font-size: 55px;
     margin-bottom: 10px;
 }
@@ -226,5 +230,83 @@ header a:hover{
     position: absolute ;
     top: 25em ;
     margin-top: 20px;
+    
+}
+
+#side-by-side-img-main-wrapper-section a h1{
+    font-size: 35px;
+}
+#side-by-side-img-main-wrapper-section h2{
+
+}
+
+
+.sec5-main-wrapper .right-half-img-wrapper #three-wrapper a h1,
+.sec5-main-wrapper .right-half-img-wrapper #three-wrapper a p{
+    color: white;
+}
+
+
+.right-half-img-wrapper #three-wrapper, .left-half-img-wrapper #three-wrapper a{
+    text-decoration: none;
+}
+
+
+.sec4-main-wrapper #three-wrapper a,
+.sec5-main-wrapper .left-half-img-wrapper #three-wrapper a,
+.sec6-main-wrapper  #three-wrapper a{
+    color: black;
+}
+
+#side-by-side-img-main-wrapper-section #three-wrapper h1,
+#side-by-side-img-main-wrapper-section #three-wrapper p,
+#side-by-side-img-main-wrapper-section #three-wrapper ul li{
+    margin-bottom: 5px;
+}
+
+#side-by-side-img-main-wrapper-section #three-wrapper p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#side-by-side-img-main-wrapper-section  .last{
+    text-align-last: center;
+}
+
+#side-by-side-img-main-wrapper-section ul .last{
+    margin-left: 30px;
+}
+
+#side-by-side-img-main-wrapper-section .sec4-main-wrapper ul .last{
+    margin-left: 90px;
+}
+
+#side-by-side-img-main-wrapper-section .sec5-main-wrapper .left-half-img-wrapper #three-wrapper a img{
+    width: 170px;
+    height: 37px;
+    margin-left: 70px;
+}
+
+#side-by-side-img-main-wrapper-section #three-wrapper ul a  .learn{
+    text-align: center;
+    background-color: rgb(0,113,227);
+    padding:10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+#side-by-side-img-main-wrapper-section #three-wrapper ul a .buy{
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: rgb(0,113,227) solid 1px;
+    color: rgb(43,136,226);
+}
+
+#side-by-side-img-main-wrapper-section #three-wrapper ul a .buy:hover{
+    
+        background-color: rgb(0,113,227);
+        color: white;
     
 }
